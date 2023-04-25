@@ -2,7 +2,7 @@ import { PlayScene } from "./PlayScene.js"
 
 const config = {
   type: Phaser.AUTO,
-  width: 1200,
+  width: 1275,
   height: 750,
   backgroundColor: "#cccccc",
   parent: "game",
@@ -11,7 +11,7 @@ const config = {
     default: "arcade",
     arcade: {
       gravity: { y: 0 },
-      debug: true,
+     debug: true,
     }
   }
 }
